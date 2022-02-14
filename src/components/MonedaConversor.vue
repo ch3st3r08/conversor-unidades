@@ -3,7 +3,7 @@
     <h1>Conversor de Moneda</h1>
     <!--COLUMNA IZQUIERDA PARA MONEDA ACTUAL-->
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-3 offset-md-2">
         <label for="actual"></label>
         <select v-model="fromMoneda" class="form-control">
           <option disabled value="">Seleccione</option>
@@ -11,7 +11,7 @@
         </select>
       </div>
       <!--COLUMNA DERECHA PARA RESULTADO FINAL-->
-      <div class="col-sm-6">
+      <div class="col-md-3 offset-md-2">
         <label for="final"></label>
         <select v-model="toMoneda" class="form-control">
           <option disabled value="">Seleccione</option>
@@ -28,7 +28,7 @@
     </div>
     <!--Botón Convertir-->
     <div class="row">
-      <div class="d-grid col-md-6 text-center">
+      <div class="col-md-12 text-center">
         <button @click="hacerConversion" class="btn btn-primary btn-block">Convertir</button>
       </div>   
     </div>
