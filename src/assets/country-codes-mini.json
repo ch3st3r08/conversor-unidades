@@ -1,0 +1,34 @@
+{
+  "AF": {
+    "alpha3": "AFG",
+    "currencyId": "AFN",
+    "currencyName": "Afghan afghani",
+    "currencySymbol": "؋",
+    "id": "AF",
+    "name": "Afghanistan"
+  },
+  "AI": {
+    "alpha3": "AIA",
+    "currencyId": "XCD",
+    "currencyName": "East Caribbean dollar",
+    "currencySymbol": "$",
+    "id": "AI",
+    "name": "Anguilla"
+  },
+  "AU": {
+    "alpha3": "AUS",
+    "currencyId": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "id": "AU",
+    "name": "Australia"
+  },
+  "BD": {
+    "currencyId": "BDT",
+    "currencyName": "Bangladeshi taka",
+    "name": "Bangladesh",
+    "alpha3": "BGD",
+    "id": "BD",
+    "currencySymbol": "৳"
+  }
+}
