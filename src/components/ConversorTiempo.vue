@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1 class="text-center">Conversor De Medidas De Tiempo</h1>
         <div class="row">
           <div class="col-md-3 offset-md-2">
             <input id="input" v-model="cantidad" type="number" class="form-control my-5" placeholder="Ingresa el número">
@@ -39,7 +38,7 @@
 
 <script>
 export default {
-  name: 'ConversorTime',
+  name: 'ConversorTiempo',
   data(){
     return{
       cantidad:0, 
