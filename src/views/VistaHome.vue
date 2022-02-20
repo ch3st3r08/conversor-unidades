@@ -5,9 +5,7 @@
     <ul>
         <li>David Alexis Gallegos González</li>
         <li>Nestor Wilfredo Chavez Ramirez</li>
-        
     </ul>
-      
   </div>
 </template>
 <script>
@@ -19,3 +17,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+  img{
+    width:45%;
+    height:45%;
+  }
+</style>

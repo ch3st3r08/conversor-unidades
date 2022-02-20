@@ -5,6 +5,7 @@ import VistaConversorTiempo from '@/views/VistaConversorTiempo.vue'
 import VistaConversorMoneda from '@/views/VistaConversorMoneda.vue'
 import VistaConversorMasa from '@/views/VistaConversorMasa.vue'
 import VistaConversorLongitud from '@/views/VistaConversorLongitud.vue'
+import VistaConversorAlmacenamiento from '@/views/VistaConversorAlmacenamiento.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/conversorlongitud',
     name: 'VistaConversorLongitud',
     component: VistaConversorLongitud
+  },
+  {
+    path: '/conversoralmacenamiento',
+    name: 'VistaConversorAlmacenamiento',
+    component: VistaConversorAlmacenamiento
   },
 ]
 

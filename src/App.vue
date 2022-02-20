@@ -1,15 +1,22 @@
 <template>
   <div id="app">
-      <b-navbar type="dark" variant="dark">
-        <b-navbar-nav>
-          <router-link to="/">Home</router-link> |
-          <router-link to="/conversormoneda">Conversor de Divizas</router-link>
-          <router-link to="/conversortiempo">Conversor de Unidades de Tiempo</router-link>
-          <router-link to="/conversormasa">Conversor de Unidades de Peso</router-link>
-          <router-link to="/conversorlongitud">Conversor de Unidades de Longitud</router-link>
-        </b-navbar-nav>
-      </b-navbar>
-    <router-view/>
+    <b-container fluid>
+      <b-row>
+        <b-col sm="4">
+          <b-list-group>
+            <b-list-group-item to="/">Inicio</b-list-group-item>
+            <b-list-group-item to="/conversormoneda">Conversor de Divizas</b-list-group-item>
+            <b-list-group-item to="/conversortiempo">Conversor de Unidades de Tiempo</b-list-group-item>
+            <b-list-group-item to="/conversormasa">Conversor de Unidades de Peso</b-list-group-item>
+            <b-list-group-item to="/conversorlongitud">Conversor de Unidades de Longitud</b-list-group-item>
+            <b-list-group-item to="/conversoralmacenamiento">Conversor de Unidades de Almacenamiento</b-list-group-item>
+          </b-list-group>
+        </b-col>
+        <b-col>
+          <router-view/>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -17,7 +24,6 @@
 export default {
   name: 'App',
   components: {
-    
   }
 }
 </script>
@@ -28,7 +34,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
