@@ -4,7 +4,7 @@
       <b-row>
         <b-col sm="4">
           <b-list-group>
-            <b-list-group-item to="/">Inicio</b-list-group-item>
+            <b-list-group-item active to="/">Inicio</b-list-group-item>
             <b-list-group-item to="/conversormoneda">Conversor de Divizas</b-list-group-item>
             <b-list-group-item to="/conversortiempo">Conversor de Unidades de Tiempo</b-list-group-item>
             <b-list-group-item to="/conversormasa">Conversor de Unidades de Peso</b-list-group-item>
