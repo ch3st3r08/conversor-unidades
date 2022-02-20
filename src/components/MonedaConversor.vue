@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Conversor de Moneda</h1>
     <!--COLUMNA IZQUIERDA PARA MONEDA ACTUAL-->
     <div class="row">
       <div class="col-md-3 offset-md-2">

@@ -1,7 +1,6 @@
 <template>
   <div id="app2">
     <div class="container">
-      <h1 class="text-center">Conversor De Medidas De Longitud</h1>
         <div class="row">
           <div class="col-md-3 offset-md-2">
             <input id="input" v-model="cantidad" type="text" class="form-control my-5" placeholder="Ingresa el número">

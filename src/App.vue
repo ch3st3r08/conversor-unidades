@@ -3,7 +3,10 @@
       <b-navbar type="dark" variant="dark">
         <b-navbar-nav>
           <router-link to="/">Home</router-link> |
+          <router-link to="/conversormoneda">Conversor de Divizas</router-link>
           <router-link to="/conversortiempo">Conversor de Unidades de Tiempo</router-link>
+          <router-link to="/conversormasa">Conversor de Unidades de Peso</router-link>
+          <router-link to="/conversorlongitud">Conversor de Unidades de Longitud</router-link>
         </b-navbar-nav>
       </b-navbar>
     <router-view/>
